@@ -1,0 +1,16 @@
+{
+  "name": "wisp-server",
+  "version": "1.0.0",
+  "description": "Minimal Wisp server for WebUB",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@mercuryworkshop/wisp-js": "^0.3.3"
+  },
+  "engines": {
+    "node": ">=20.11.0"
+  }
+}
