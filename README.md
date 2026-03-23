@@ -1,4 +1,4 @@
-# Wisp Server (Render)
+# Wisp Server (Fly)
 
 This repo runs a minimal Wisp WebSocket server.
 
