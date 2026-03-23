@@ -2,7 +2,7 @@
 
 This repo runs a minimal Wisp WebSocket server.
 
-## Deploy on Render
+## Deploy on Fly
 
 Create a **Web Service**:
 - Build command: `npm install`
