@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -71,3 +72,19 @@ export default defineConfig([
   },
 ])
 ```
+=======
+# Wisp Server (Fly)
+
+This repo runs a minimal Wisp WebSocket server.
+
+## Deploy on Fly
+
+Create a **Web Service**:
+- Build command: `npm install`
+- Start command: `npm start`
+- Environment: `Node`
+
+Render will provide a URL like `https://your-service.onrender.com`.
+Use this as your Wisp URL:
+`wss://your-service.onrender.com`
+>>>>>>> f725a0436db4d252e1dab03675fc8ed2c27b81b6
