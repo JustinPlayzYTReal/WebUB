@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: 'Roboto', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Hide scrollbar for tab row */
+  .scrollbar-none {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Result snippet bold highlights */
+  .result-snippet b,
+  .result-snippet strong {
+    font-weight: 500;
+    color: #202124;
+  }
+
+  /* Dark mode snippet highlights */
+  .dark .result-snippet b,
+  .dark .result-snippet strong {
+    color: #e8eaed;
+  }
+
+  /* Visited link color */
+  a:visited .result-title {
+    color: #609;
+  }
+
+  /* Smooth transitions for dark mode */
+  html.dark body {
+    background-color: #202124;
+    color: #e8eaed;
+  }
+}
